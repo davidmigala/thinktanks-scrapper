@@ -1,8 +1,6 @@
 import json
 import datetime
 import requests
-import pandas as pd
-from bs4 import BeautifulSoup
 
 end_date=datetime.date.today()
 start_date=(end_date - datetime.timedelta(days=14))
